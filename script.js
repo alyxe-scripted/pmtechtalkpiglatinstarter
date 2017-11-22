@@ -20,9 +20,11 @@ $(document).ready(function() {
 // Create the wordStartsWithVowel function that takes a word as a parameter
 	// This function should return true if the input word starts with a vowel, otherwise it should return false.
 function wordStartsWithVowel(word) {
-  
+  	var startsWithVowel;
 	
-	return word; 
+	
+	
+	return startsWithVowel; 
 }
 
 // Create the wordStartsWithVowelTransformation function that takes a word as a parameter
