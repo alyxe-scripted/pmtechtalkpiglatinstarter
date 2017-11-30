@@ -66,7 +66,11 @@ function wordStartsWithConsonantTransformation(word) {
 	// Otherwise return the result of the wordStartsWithVowelTransformation. 
 
 function toPigLatinWord(word) {
-  
+// if(){
+	
+//} else {
+	
+//}
 	
 }
 
