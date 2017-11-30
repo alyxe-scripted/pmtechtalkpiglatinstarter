@@ -20,11 +20,7 @@ $(document).ready(function() {
 // Create the wordStartsWithVowel function that takes a word as a parameter
 	// This function should return true if the input word starts with a vowel, otherwise it should return false.
 function wordStartsWithVowel(word) {
-  	var startsWithVowel;
-	
-	
-	
-	return startsWithVowel; 
+  	
 }
 
 // Create the wordStartsWithVowelTransformation function that takes a word as a parameter
@@ -32,7 +28,6 @@ function wordStartsWithVowel(word) {
 function wordStartsWithVowelTransformation(word) {
   
 	
-	return word; 
 }
 
 
@@ -41,7 +36,6 @@ function wordStartsWithVowelTransformation(word) {
 function wordStartsWithConsonantTransformation(word) {
   
 	
-	return word; 
 }
 
 
@@ -52,7 +46,6 @@ function wordStartsWithConsonantTransformation(word) {
 function toPigLatinWord(word) {
   
 	
-	return word;
 }
 
 
