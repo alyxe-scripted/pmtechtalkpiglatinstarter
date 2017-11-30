@@ -10,9 +10,9 @@
 		// Displays the result to the screen
 $(document).ready(function() {
 	$(".btn").click(function(){
-		var input = $(".form-control").val()
-		var result = input
-   		$('.result-text').html("<h3>" + result + "</h3>")
+		var input = $(".form-control").val();
+		var result = toPigLatinSentence(input);
+   		$('.result-text').html("<h3>" + result + "</h3>");
     });
 });
 
@@ -66,15 +66,25 @@ function wordStartsWithConsonantTransformation(word) {
 	// Otherwise return the result of the wordStartsWithVowelTransformation. 
 
 function toPigLatinWord(word) {
-// if(){
-	
-//} else {
-	
-//}
-	
+
 }
 
 
 // Create the toPigLatinSentence function that takes a sentence as a parameter
 	//Itterates through all the words in the sentence and transforms each word to pig latin
 
+function toPigLatinSentence(sentence) {
+	
+	//Declare an new variable called sentenceArray.
+	
+	//Use .split() to transfrom sentence string into and array of words and assign it to sentenceArray
+	
+	//Declare an new variable called newArray.
+	
+	//Create a for loop that loops over each item in the sentenceArray
+	
+		//For each word call pigLatinizeWord and push it into you new array
+	
+	//Join the array back into a string and return the result.
+
+}
