@@ -20,13 +20,25 @@ $(document).ready(function() {
 // Create the wordStartsWithVowel function that takes a word as a parameter
 	// This function should return true if the input word starts with a vowel, otherwise it should return false.
 function wordStartsWithVowel(word) {
-  	
+  	// var firstLetter = ;
+	
+	//if(){
+	// 	return true;
+	// } else {
+	// 	return false;
+	//}
 }
 
 // Create the wordStartsWithVowelTransformation function that takes a word as a parameter
 	// Appends "way" to the end of the word 
 function wordStartsWithVowelTransformation(word) {
-  
+	//Declare a variable called newWord
+	
+	//Assign: newWord the value of  word + "ay"
+	
+	//Add "ay" to the end of the word
+	
+	// Retun the new word.
 	
 }
 
@@ -34,7 +46,17 @@ function wordStartsWithVowelTransformation(word) {
 // Create the wordStartsWithConsonantTransformation function that takes a word as a parameter
 	// Moves the first consonant to the end of the word and appends "ay" to the end of the word
 function wordStartsWithConsonantTransformation(word) {
-  
+//Declare a variable called newWord
+
+	
+//Declare a variable called firstLetter and assign it the value of the first letter of the word
+	
+//Declare a variable called lastLetters assign it the value of the last letters of the word
+	
+	
+//Reassign newWord the lastletters + firstLetter + "ay"
+
+//return the new word
 	
 }
 
