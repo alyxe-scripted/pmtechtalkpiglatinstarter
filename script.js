@@ -65,6 +65,7 @@ function wordStartsWithConsonantTransformation(word) {
 
 function toPigLatinWord(word) {
 
+	return word;
 }
 
 
