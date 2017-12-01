@@ -11,7 +11,7 @@
 $(document).ready(function() {
 	$(".btn").click(function(){
 		var input = $(".form-control").val();
-		var result = toPigLatinSentence(input);
+		var result = toPigLatinWord(input);
    		$('.result-text').html("<h3>" + result + "</h3>");
     });
 });
@@ -35,10 +35,8 @@ function wordStartsWithVowelTransformation(word) {
 	//Declare a variable called newWord
 	
 	//Assign: newWord the value of  word + "ay"
-	
-	//Add "ay" to the end of the word
-	
-	// Retun the new word.
+		
+	// Retun newWord.
 	
 }
 
